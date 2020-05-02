@@ -6,6 +6,12 @@ Model-View-Controller
 ## Controller
 入力の変換。
 
+### 役割
+- 入力値の不正チェック（ビジネスロジック以外）
+- 入力オブジェクトへ変換
+- モデルの呼び出し
+
+### サンプルコード
 ```php
 class GachaController extends Controller {
   public function draw() {
