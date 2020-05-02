@@ -9,7 +9,7 @@ Model-View-Controller
 ```php
 class GachaController extends Controller {
   public function draw() {
-    $input = new GachaDrawInputData($_POST);
+    $input = new GachaDrawInputData($_POST['gacha_id'], $_POST['number']);
     $gachaModel->draw($input);
   }
 }
