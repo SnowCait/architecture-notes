@@ -6,6 +6,15 @@ Model-View-Controller
 ## Controller
 入力の変換。
 
+```php
+class GachaController extends Controller {
+  public function draw() {
+    $input = new GachaDrawInputData($_POST);
+    $gachaModel->draw($input);
+  }
+}
+```
+
 ## Model
 ビジネス（ゲーム）ロジック。
 
