@@ -10,4 +10,4 @@
 当然 `switch (environment)` も同様。  
 
 ## どうするか
-`if (feature)` という分岐にし、 config で環境毎に設定をする。
+`if (feature)` という分岐にし、 config で環境毎に機能の ON/OFF を設定をする。
